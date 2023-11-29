@@ -1,1 +1,98 @@
-<h1>My link in bio</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- where we tell the browser how to process the document: -->
+        <!-- what title to put in the browser tab -->
+        <!-- what style sheets to load -->
+        <!-- what language to use -->
+          <!-- we will always use a character set called UTF-8 -->
+          <!-- UTF-8 allows for all languages as well as things like emoji -->
+          <style>
+            body {
+              padding-top: 40px;
+              padding-bottom: 40px;
+              background-color: #004643;
+              justify-content: center;
+            }
+            .banner-image {
+              width: 128px;
+              height: 128px;
+              object-fit: cover;
+              border-radius: 128px;
+            }
+            .thumbnail {
+             width: 48px;
+             height: 48px;
+             border-radius: 48px;
+             object-fit: cover;
+            }
+            .name {
+              color: #fffffe;
+            } 
+            .social-icons a {
+              color: #fffffe;
+              text-decoration: none;
+            }
+            .link {
+              background-color: #f9bc60;
+              display: flex;
+              align-items: center;
+              padding: 5px;
+            }
+            .link a {
+              color: #001e1d;
+              text-decoration: none;
+              flex-grow: 1;
+              text-align: center;
+            }
+            .items {
+              display: flex;
+              flex-direction: column;
+              gap: 30px;
+              max-width: 640px;
+              flex-grow: 1;
+            }
+          </style>
+  </head>
+<body>
+  <div class = "items">
+    <div class="banner">
+      <img src="pfp.jpeg" alt="Rohan Mendiratta headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Rohan Mendiratta 
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/romendi" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/rohan-mendiratta01/" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://dev.to/romendi" target="_blank">
+        Learning Journal
+      </a>
+    </div>
+
+    <div class="link">
+      <img
+        src="soul.jpg" alt="Soul"class="thumbnail">
+
+      <a target="_blank" href="https://hbr.org/2019/07/the-soul-of-a-start-up"> Soul of a Startup</a>
+    </div>
+
+    <div class="link">
+      <img src="Computer_searching_logo.png" alt="Computer" class="thumbnail">
+
+      <a target="_blank"
+        href="https://www.nytimes.com/2017/04/04/education/edlife/teaching-students-computer-code.html">Learning to think like a computer</a>
+    </div>
+  </div>
+  <!-- Etc, for as many links as you want -->
+</body>
+
+</html>
